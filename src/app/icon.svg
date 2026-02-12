@@ -1,0 +1,30 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="12" x2="230" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111217"/>
+      <stop offset="1" stop-color="#040405"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(82 64) rotate(43) scale(120)">
+      <stop stop-color="white" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(198 178) rotate(135) scale(124)">
+      <stop stop-color="white" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="55" y1="50" x2="193" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <circle cx="88" cy="70" r="86" fill="url(#orbA)"/>
+  <circle cx="198" cy="180" r="92" fill="url(#orbB)"/>
+
+  <rect x="46" y="46" width="164" height="164" rx="44" fill="url(#glass)" stroke="white" stroke-opacity="0.36" stroke-width="2"/>
+
+  <path d="M91 78H129.6C152.9 78 169 94.2 169 116.3C169 134.2 158.8 146.9 143 152.2L174.4 182H149.6L121.4 155.2H109.6V182H91V78ZM109.6 94.5V138.7H128.4C142.8 138.7 150.4 130.4 150.4 116.3C150.4 102.5 143 94.5 128.6 94.5H109.6Z" fill="white"/>
+
+  <circle cx="172" cy="84" r="6" fill="white" fill-opacity="0.76"/>
+</svg>
